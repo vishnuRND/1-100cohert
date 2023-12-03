@@ -1,0 +1,83 @@
+<!--
+    HTML:
+        tags:
+            div is a division and make sure you divide the structure into multiple segments/division
+            Head is for the metadata of the page
+            html says the the whole page(metadata+body)
+            body is about the actual structure
+            title is for, whats the page to be shown when the link is clicked
+            <h1> to <h6> are used for font size and stands for heading.
+            img is to load image from the location specified
+            <a> is for attribute
+            <b> bold the text
+            <i> italic the text
+            <button> create a button
+            <center> gets the information to the center
+            <input> is to take a input from the user
+            <br> is to give a break
+        attributes:
+                are additional information on tags
+                <a href> href is attribute
+                <button onsubmit = ""> onsubmit is attribute
+                <img src> src is an attribute
+    CSS:
+            style:
+                colour: colour of element
+                backgroup: backgroup of the element
+                border: border for the element
+                border-radius: curves for the corners        
+                padding: additional space inside the div
+                margin: additional space outside the div
+                box-shadow: shadow for the div(20Px,10px,10px,black)
+                        -> 20Px: left or right(left shadow or right)
+                        -> 10PX: closer or far from the box
+                        -> 10PX: bottom or up of the div
+                        -> black: colour of the shadow\
+                display flex: is used to position div in the same section
+--> 
+<html>
+    <head>
+        <title>
+            Zerodha
+        </title>
+    </head>
+    <body>
+       <div style="padding-top: 20px; padding-right: 100px; display: flex; justify-content: space-between; padding-left: 100px; box-shadow: 2px 1px 2px #eee;">
+        <div>
+            <img src = "logo.svg" width = 200>
+        </img>
+        </div>
+        <div style="display: flex; justify-content: space-between;">
+            <div style="padding: 20px; color: #666; cursor: pointer;">
+                Signup
+            </div>
+            <div style="padding: 20px; color: #666; cursor: pointer;">
+                About
+            </div>
+            <div style="padding: 20px; color: #666; cursor: pointer;">
+                Products
+            </div>
+            <div style="padding: 20px; color: #666; cursor: pointer;">
+                Pricing
+            </div>
+            <div style="padding: 20px; color: #666; cursor: pointer;">
+                Support
+            </div>
+        </div>
+       </div>
+       <div style="padding-top: 20px; display: flex; justify-content: center;">
+            <img src = "landing.png" width="1000">
+       </div>
+       <div style="padding-top: 30px; display: flex; justify-content: center;">
+            <h1 style="font-weight: 400;"><b>Invest in everything</b></h1>
+       </div>
+       <div style="padding-top: 10px; display: flex; justify-content: center;">
+        <h2 style="font-weight: 400;">Online platform to invest in stocks, derivatives, mutual funds, and more</h2>
+       </div>
+       <div style="padding-top: 10px; display: flex; justify-content: center;">
+        <div style="background-color: #387ed1; padding-left: 10px; padding-right: 10px; padding-top: 10px; padding-bottom: 10px; cursor: pointer; color: white; border-radius: 3px;">
+            Sign up now
+        </div>
+       </div>
+    </body>
+</html>
